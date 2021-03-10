@@ -1,12 +1,19 @@
 SELECT *
-FROM ZagrosDW.FactSales
+FROM ZagrosDW.FactSales;
 GO
 SELECT *
-FROM ZagrosDW.DimGame;
+FROM ZagrosDW.DimLocation;
 GO
 SELECT *
-FROM ZagrosDW.DimRetailer;
+FROM ZagrosDW.DimPackage;
 GO
 SELECT *
-FROM ZagrosDW.DimTime;
+FROM ZagrosDW.DimOrderStatus;
 GO
+SELECT *
+FROM ZagrosDW.DimCustomer;
+GO
+
+SELECT *
+FROM ZagrosDW.DimTime
+WHERE TimeKey = 435;

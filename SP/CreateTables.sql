@@ -156,7 +156,7 @@ ELSE
 BEGIN
     CREATE TABLE ZagrosDW.DimCustomer
     (
-        CustomerID TINYINT NOT NULL,
+        CustomerID INT NOT NULL,
         Email NVARCHAR(50) NOT NULL,
         FirstName NVARCHAR(50) NOT NULL,
         LastName NVARCHAR(50) NOT NULL,
