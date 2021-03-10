@@ -1,0 +1,8 @@
+EXEC ZagrosDW.DropFKs;
+
+TRUNCATE TABLE ZagrosDW.FactSales;
+GO
+TRUNCATE TABLE ZagrosDW.DimGame;
+GO
+TRUNCATE TABLE ZagrosDW.DimRetailer;
+GO
